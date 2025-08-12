@@ -1,4 +1,4 @@
-/* Page background */
+Page background 
 body {
   background-color: var(--c-background-color);
   color: var(--base-font-color);
@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Header and Footer styling */
+Header and Footer styling
 header,
 footer {
   background-color: var(--c-background-highlights);
@@ -14,13 +14,13 @@ footer {
   padding: 1rem;
 }
 
-/* Main content text color */
+Main content text color
 main {
   color: var(--base-font-color);
   padding: 1rem;
 }
 
-/* Article links */
+-Article links
 article a {
   color: var(--c-magenta);
   text-decoration: none;
@@ -29,4 +29,32 @@ article a {
 article a:hover {
   color: var(--c-orange);
   text-decoration: underline;
+}
+
+-Header Styling-
+header {
+  background-color: var(--c-background-highlights);
+  color: var(--base-font-color);
+  text-align: center;
+  font-size: 150%;
+  padding: 1rem;
+}
+
+header h1 {
+  color: var(--c-yellow);
+}
+
+Article Subsections
+article h3,
+article p {
+  border: 3px solid var(--c-cyan);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+Navigation Styling
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
